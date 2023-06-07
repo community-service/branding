@@ -9,6 +9,7 @@ todo: take existing style decisions from existing media, document it here nicely
 ### Font
 
 * Logo font is Rockwell (only available on macOS?) // should we be exporting to traced paths on graphics svgs?
+* Alternate font is Courier New
 
 ### Colors
 
