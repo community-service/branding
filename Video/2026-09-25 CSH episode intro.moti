@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ozxmlscene>
-<ozml version="5.13">
+<ozml version="5.15">
 
-<displayversion>5.7</displayversion>
+<displayversion>6.3</displayversion>
 
 <factory id="1" uuid="03ce4d4f0ea74b3b9af072a0e4a61ab7">
 	<description>Channel</description>
@@ -267,7 +267,7 @@ Can customize the episode title name</description>
 	<cameraType>0</cameraType>
 	<cameraName>Active Camera</cameraName>
 	<mirrorHMD>0</mirrorHMD>
-	<panZoom camera="0" zoom="1.4682291746139526" panX="34" panY="122" mode="2" centered="1"/>
+	<panZoom camera="0" zoom="0.59843748807907104" panX="35" panY="126" mode="2" centered="1"/>
 </viewer>
 
 <projectPanel>
@@ -304,7 +304,7 @@ Can customize the episode title name</description>
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.1666666666666667</videoVerticalZoom>
 	<audioVerticalZoom>1.1666666666666667</audioVerticalZoom>
-	<displayRange in="-8952944 5621625 1 0" out="1352519168 44973000 1 0"/>
+	<displayRange in="-2804301244 1671875000 3 0" out="31707339062 1000000000 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -312,8 +312,8 @@ Can customize the episode title name</description>
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-8952944 5621625 1 0" out="1352519168 44973000 1 0"/>
-	<currentviewvolume originx="-1.5925900429146376" originy="-62.5" width="31.666615969581748" height="125"/>
+	<displayRange in="-2804301244 1671875000 3 0" out="31707339062 1000000000 3 0"/>
+	<currentviewvolume originx="-1.6773390618317756" originy="-62.5" width="33.384678123999997" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -362,7 +362,7 @@ Can customize the episode title name</description>
 		<savePreviewMovie>1</savePreviewMovie>
 		<Object3DEnvironments>100</Object3DEnvironments>
 		<DRTSupport>0</DRTSupport>
-		<onHDRDisplay>0</onHDRDisplay>
+		<onHDRDisplay>1</onHDRDisplay>
 	</sceneSettings>
 	<exportSettings>
 		<version>1</version>
@@ -392,8 +392,8 @@ Can customize the episode title name</description>
 		<target object="3001963616" channel="./2/369" name="SECONDARY TEXT"/>
 	</publishSettings>
 	<currentFrame>236236 120000 1 0</currentFrame>
-	<currentObject>10108</currentObject>
-	<activeLayer>10108</activeLayer>
+	<currentObject>3001954511</currentObject>
+	<activeLayer>3001963443</activeLayer>
 	<timeRange offset="0 1 1 0" duration="3603600 120000 1 0"/>
 	<playRange offset="0 120000 1 0" duration="3603600 120000 1 0"/>
 	<flags>1</flags>
@@ -2544,7 +2544,7 @@ Can customize the episode title name</description>
 				<baseFlags>8657043505</baseFlags>
 				<foldFlags>786432</foldFlags>
 				<parameter name="Font" id="83" flags="12884906000">
-					<font>RobotoSlab-SemiBold</font>
+					<font>Rockwell-Regular</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
 				<parameter name="Size" id="3" flags="8589934608" default="48" value="70"/>
@@ -2634,7 +2634,7 @@ Can customize the episode title name</description>
 				<baseFlags>8657043505</baseFlags>
 				<foldFlags>786432</foldFlags>
 				<parameter name="Font" id="83" flags="12884906000">
-					<font>RobotoSlab-Regular</font>
+					<font>Rockwell-Regular</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
 				<parameter name="Size" id="3" flags="8589934608" default="48" value="70"/>
@@ -2740,6 +2740,10 @@ Can customize the episode title name</description>
 				<parameter name="Reflection" id="223" flags="8589971474">
 					<foldFlags>131087</foldFlags>
 				</parameter>
+				<parameter name="Color" id="243" flags="8589938690">
+					<parameter name="Conversion Type" id="247" flags="8590032912" default="3" value="3"/>
+					<parameter name="PQ Peak (nits)" id="248" flags="8589967376" default="1000" value="1000"/>
+				</parameter>
 				<parameter name="Drop Shadow" id="208" flags="8589971474">
 					<foldFlags>131087</foldFlags>
 				</parameter>
@@ -2776,7 +2780,7 @@ NEW YORK TIME  </text>
 					</parameter>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="3001977702" flags="12884906002" factoryID="36">
+					<parameter name="Substance" id="3001983004" flags="12884906002" factoryID="36">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -2812,7 +2816,7 @@ NEW YORK TIME  </text>
 				<baseFlags>8657043505</baseFlags>
 				<foldFlags>786432</foldFlags>
 				<parameter name="Font" id="83" flags="12884906000">
-					<font>RobotoSlab-SemiBold</font>
+					<font>Rockwell-Regular</font>
 					<defaultFont>Helvetica</defaultFont>
 				</parameter>
 				<parameter name="Size" id="3" flags="8589934608" default="48" value="120"/>
@@ -2898,7 +2902,7 @@ NEW YORK TIME  </text>
 			<flags>0</flags>
 			<timing in="1913912 120000 1 0" out="3483480 120000 1 0" offset="2306304 120000 1 0"/>
 			<foldFlags>0</foldFlags>
-			<baseFlags>34078800</baseFlags>
+			<baseFlags>302514257</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
@@ -2948,7 +2952,7 @@ SERVICE HOUR</text>
 					</parameter>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="3001977718" flags="12884906002" factoryID="36">
+					<parameter name="Substance" id="3001983020" flags="12884906002" factoryID="36">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -2999,7 +3003,7 @@ SERVICE HOUR</text>
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="3001977718" flags="12884906002" factoryID="36">
+					<parameter name="Substance" id="3001983020" flags="12884906002" factoryID="36">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -60336,7 +60340,7 @@ SERVICE HOUR</text>
 						<parameter name="Height" id="314" flags="8589934610" default="1" value="1846"/>
 					</parameter>
 				</scenenode>
-				<mask name="PURPLE TRIANGLE copy 20" id="3001937486" factoryID="18">
+				<mask name="PURPLE TRIANGLE copy 21" id="3001937486" factoryID="18">
 					<isShapeStyle>0</isShapeStyle>
 					<aspectRatio>1</aspectRatio>
 					<flags>8</flags>
@@ -61430,7 +61434,7 @@ SERVICE HOUR</text>
 						<parameter name="Height" id="314" flags="8589934610" default="1" value="1846"/>
 					</parameter>
 				</scenenode>
-				<mask name="PURPLE TRIANGLE copy 19" id="3001937403" factoryID="18">
+				<mask name="PURPLE TRIANGLE copy 20" id="3001937403" factoryID="18">
 					<isShapeStyle>0</isShapeStyle>
 					<aspectRatio>1</aspectRatio>
 					<flags>8</flags>
@@ -80564,7 +80568,7 @@ SERVICE HOUR</text>
 		<flags>0</flags>
 		<timing in="0 120000 1 0" out="3855852 120000 1 0" offset="80080 120000 1 0"/>
 		<foldFlags>1</foldFlags>
-		<baseFlags>268959825</baseFlags>
+		<baseFlags>524368</baseFlags>
 		<parameter name="Properties" id="1" flags="8589938704">
 			<parameter name="Lighting" id="230" flags="8589938706">
 				<foldFlags>15</foldFlags>
@@ -80577,8 +80581,8 @@ SERVICE HOUR</text>
 			</parameter>
 		</parameter>
 		<parameter name="Object" id="2" flags="8589938704">
-			<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
-			<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+			<parameter name="Fixed Width" id="302" flags="12901679124" default="1920" value="1920"/>
+			<parameter name="Fixed Height" id="303" flags="12901679124" default="1080" value="1080"/>
 			<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
 			<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
 			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
@@ -80658,10 +80662,9 @@ SERVICE HOUR</text>
 
 	<footage name="Media Layer" id="10053">
 		<clip name="dt-headshot-masked" id="3001975368">
-			<relativeURL>../Elements/Motion/dt-headshot-masked.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/dt-headshot-masked.png</pathURL>
-			<missingWidth>610</missingWidth>
-			<missingHeight>610</missingHeight>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/dt-headshot-masked.png</pathURL>
+			<missingWidth>1000</missingWidth>
+			<missingHeight>1000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
 			<missingDynamicRangeType>0</missingDynamicRangeType>
 			<creationDuration>1</creationDuration>
@@ -80690,10 +80693,9 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="dt-headshot2-masked" id="3001974600">
-			<relativeURL>../Elements/Motion/dt-headshot2-masked.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/dt-headshot2-masked.png</pathURL>
-			<missingWidth>929</missingWidth>
-			<missingHeight>930</missingHeight>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/dt-headshot2-masked.png</pathURL>
+			<missingWidth>1000</missingWidth>
+			<missingHeight>1000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
 			<missingDynamicRangeType>0</missingDynamicRangeType>
 			<creationDuration>1</creationDuration>
@@ -80722,8 +80724,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="william-white" id="3001960427">
-			<relativeURL>../Elements/Motion/william-white.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-white.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-white.png</pathURL>
 			<missingWidth>2000</missingWidth>
 			<missingHeight>2000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80754,8 +80755,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="william-purple" id="3001960425">
-			<relativeURL>../Elements/Motion/william-purple.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-purple.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-purple.png</pathURL>
 			<missingWidth>2000</missingWidth>
 			<missingHeight>2000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80786,8 +80786,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<scenenode name="Diamond" id="3001960393" factoryID="12" version="5">
-			<relativeURL>../Elements/Motion/Diamond.usdz</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/Diamond.usdz</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/Diamond.usdz</pathURL>
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
@@ -80796,8 +80795,7 @@ SERVICE HOUR</text>
 			<parameter name="Object" id="2" flags="8589938704"/>
 		</scenenode>
 		<scenenode name="hexagon" id="3001956908" factoryID="12" version="5">
-			<relativeURL>../Elements/Motion/hexagon.usdz</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/hexagon.usdz</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/hexagon.usdz</pathURL>
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
@@ -80806,8 +80804,7 @@ SERVICE HOUR</text>
 			<parameter name="Object" id="2" flags="8589938704"/>
 		</scenenode>
 		<clip name="william-fire-bw" id="3001941249">
-			<relativeURL>../Elements/Motion/william-fire-bw.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-fire-bw.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-fire-bw.png</pathURL>
 			<missingWidth>1271</missingWidth>
 			<missingHeight>1621</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80838,8 +80835,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<scenenode name="Block_Shape_Diamond" id="3001940420" factoryID="12" version="5">
-			<relativeURL>../Elements/Motion/Block_Shape_Diamond.usdz</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/Block_Shape_Diamond.usdz</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/Block_Shape_Diamond.usdz</pathURL>
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
@@ -80848,8 +80844,7 @@ SERVICE HOUR</text>
 			<parameter name="Object" id="2" flags="8589938704"/>
 		</scenenode>
 		<clip name="mic" id="3001940020">
-			<relativeURL>../Elements/Motion/mic.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/mic.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/mic.png</pathURL>
 			<missingWidth>1026</missingWidth>
 			<missingHeight>2729</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80880,8 +80875,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="Screen Shot 2022-04-20 at 8.39.18" id="3001937401">
-			<relativeURL>../Elements/Motion/Screen%20Shot%202022-04-20%20at%208.39.18.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/Screen%20Shot%202022-04-20%20at%208.39.18.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/Screen%20Shot%202022-04-20%20at%208.39.18.png</pathURL>
 			<missingWidth>2070</missingWidth>
 			<missingHeight>1846</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80912,8 +80906,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<scenenode name="eth" id="3001928907" factoryID="12" version="5">
-			<relativeURL>../Elements/Motion/eth.usdz</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/eth.usdz</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/eth.usdz</pathURL>
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="-4 120000 3 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
@@ -80922,8 +80915,7 @@ SERVICE HOUR</text>
 			<parameter name="Object" id="2" flags="8589938704"/>
 		</scenenode>
 		<clip name="william-stage-3" id="3001927057">
-			<relativeURL>../Elements/Motion/william-stage-3.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-stage-3.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-stage-3.png</pathURL>
 			<missingWidth>3000</missingWidth>
 			<missingHeight>2000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80954,8 +80946,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="william-suit2" id="3001926838">
-			<relativeURL>../Elements/Motion/william-suit2.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-suit2.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-suit2.png</pathURL>
 			<missingWidth>2000</missingWidth>
 			<missingHeight>2000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -80986,8 +80977,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="aim" id="3001925133">
-			<relativeURL>../Elements/Motion/aim.ai</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/aim.ai</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/aim.ai</pathURL>
 			<missingWidth>774</missingWidth>
 			<missingHeight>774</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
@@ -81011,7 +81001,7 @@ SERVICE HOUR</text>
 				<parameter name="Field Order" id="105" flags="8590000130" default="0" value="0"/>
 				<parameter name="3:2 Pulldown" id="106" flags="8590000130" default="0" value="0"/>
 				<parameter name="Frame Rate" id="107" flags="8589934594" default="0" value="30"/>
-				<parameter name="Fixed Resolution" id="113" flags="8589934592" default="1" value="1"/>
+				<parameter name="Fixed Resolution" id="113" flags="12884901888" default="0" value="1"/>
 				<parameter name="Fixed Width" id="114" flags="12884901888" default="774" value="774"/>
 				<parameter name="Fixed Height" id="115" flags="12884901888" default="774" value="774"/>
 				<parameter name="Background Color" id="117" flags="8589971456">
@@ -81026,9 +81016,8 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="tech" id="3001925084">
-			<relativeURL>../Elements/Motion/tech.ai</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/tech.ai</pathURL>
-			<missingWidth>452</missingWidth>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/tech.ai</pathURL>
+			<missingWidth>453</missingWidth>
 			<missingHeight>200</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>
 			<missingDynamicRangeType>0</missingDynamicRangeType>
@@ -81051,7 +81040,7 @@ SERVICE HOUR</text>
 				<parameter name="Field Order" id="105" flags="8590000130" default="0" value="0"/>
 				<parameter name="3:2 Pulldown" id="106" flags="8590000130" default="0" value="0"/>
 				<parameter name="Frame Rate" id="107" flags="8589934594" default="0" value="30"/>
-				<parameter name="Fixed Resolution" id="113" flags="8589934592" default="1" value="0"/>
+				<parameter name="Fixed Resolution" id="113" flags="12884901888" default="0" value="0"/>
 				<parameter name="Fixed Width" id="114" flags="12884934656" default="452" value="452"/>
 				<parameter name="Fixed Height" id="115" flags="12884934656" default="200" value="200"/>
 				<parameter name="Background Color" id="117" flags="8589971456">
@@ -81066,8 +81055,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="Scary Island - Verified Picasso" id="1504713479">
-			<relativeURL>../Elements/Motion/Scary%20Island%20-%20Verified%20Picasso.mp3</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/Scary%20Island%20-%20Verified%20Picasso.mp3</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/Scary%20Island%20-%20Verified%20Picasso.mp3</pathURL>
 			<missingWidth>0</missingWidth>
 			<missingHeight>0</missingHeight>
 			<missingDuration>95.406984126984128</missingDuration>
@@ -81109,8 +81097,7 @@ SERVICE HOUR</text>
 			</parameter>
 		</clip>
 		<clip name="william-glasses" id="1504713470">
-			<relativeURL>../Elements/Motion/william-glasses.png</relativeURL>
-			<pathURL>file:///Users/williamentriken/Documents/%F0%9F%8E%89COMMUNITY%20SERVICE/branding/Elements/Motion/william-glasses.png</pathURL>
+			<pathURL>file:///Users/williamentriken/Documents/LEARNING%20AND%20WORKING/COMMUNITY%20SERVICE/branding/Elements/Motion/william-glasses.png</pathURL>
 			<missingWidth>1333</missingWidth>
 			<missingHeight>2000</missingHeight>
 			<missingDuration>0.033333333333333333</missingDuration>

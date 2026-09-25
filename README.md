@@ -24,3 +24,27 @@ todo: take existing style decisions from existing media, document it here nicely
 
 [Verified Picasso - Scary Island](Verified Picasso - Scary Island) licensed freely "You're free to use this song in any of your videos"
 
+## Build
+
+Requires Apple Motion and Compressor.
+
+```sh
+COMPRESSOR="/Applications/Compressor.app/Contents/MacOS/Compressor"
+ROOT="$(pwd)"
+SETTING="$ROOT/Video/Apple Devices 4K.compressorsetting"
+
+mkdir -p "$ROOT/Rendered"
+
+"$COMPRESSOR" \
+  -batchname "2023-06 CSH starting soon" \
+  -jobpath "$ROOT/Video/2023-06 CSH starting soon.moti" \
+  -settingpath "$SETTING" \
+  -locationpath "$ROOT/Rendered/2023-06 CSH starting soon.m4v"
+
+"$COMPRESSOR" \
+  -batchname "2026-09-25 CSH episode intro" \
+  -jobpath "$ROOT/Video/2026-09-25 CSH episode intro.moti" \
+  -settingpath "$SETTING" \
+  -locationpath "$ROOT/Rendered/2026-09-25 CSH episode intro.m4v"
+```
+
