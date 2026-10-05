@@ -23,7 +23,7 @@ todo: take existing style decisions from existing media, document it here nicely
 
 ## Build
 
-Requires Apple Motion and Compressor.
+Build `.moti`, `.motn` -> `m4v` (requires Apple Motion and Compressor)
 
 ```sh
 COMPRESSOR="/Applications/Compressor.app/Contents/MacOS/Compressor"
@@ -31,16 +31,29 @@ ROOT="$(pwd)"
 SETTING="$ROOT/Video/Apple Devices 4K.compressorsetting"
 SOURCE="$ROOT/Video"
 RENDERED="$ROOT/Rendered"
-
 mkdir -p "$RENDERED"
-
-find "$SOURCE" -maxdepth 1 -type f \( -name '*.moti' -o -name '*.motn' \) -print | while IFS= read -r FILE; do
-  BASENAME=${FILE##*/}
-  BASENAME=${BASENAME%.*}
+find "$SOURCE" -type f \( -name '*.moti' -o -name '*.motn' \) ! -path "$RENDERED/*" -print0 |
+while IFS= read -r -d '' FILE; do
+  rel="${FILE#"$SOURCE"/}"
+  out="$RENDERED/${rel%.*}.m4v"
+  mkdir -p "$(dirname "$out")"
   "$COMPRESSOR" \
-    -batchname "$BASENAME" \
+    -batchname "$(basename "${rel%.*}")" \
     -jobpath "$FILE" \
     -settingpath "$SETTING" \
-    -locationpath "$RENDERED/$BASENAME.m4v"
+    -locationpath "$out"
 done
 ```
+
+Build `.svg` -> `.png` (requires `brew install librsvg`)
+
+```sh
+find . -type f -name '*.svg' ! -path './Rendered/*' -print0 |
+while IFS= read -r -d '' f; do
+  rel="${f#./}"
+  out="Rendered/${rel%.svg}.png"
+  mkdir -p "$(dirname "$out")"
+  rsvg-convert -w 1024 -o "$out" "$f"
+done
+```
+
